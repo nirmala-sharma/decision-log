@@ -1,0 +1,47 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 263px;
+    margin: auto;
+    padding-top: 60px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    width: 40%;
+    align-self: center;
+    /* Center inside flex column */
+    padding: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    padding: 16px 740px;
+    background-color: #004c93;
+    gap: 20px
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Lato,Lucida Sans Unicode,Lucida Grande,sans-serif;
+}
