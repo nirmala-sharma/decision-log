@@ -23,7 +23,7 @@ input {
 nav {
     display: flex;
     justify-content: flex-start;
-    padding: 16px 740px;
+    padding: 16px 5%; 
     background-color: #004c93;
     gap: 20px;
 }
