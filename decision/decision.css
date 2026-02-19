@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -5,13 +9,37 @@ form {
     width: 244px;
     margin: 81px auto auto;
 }
+form textarea {
+    width: 100%;
+    resize: vertical;
+    max-width: 40em;
+    min-height: 12em;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    display: block;
+    margin: 20px auto;
+}
+
+.container {
+    width: 150%;
+    max-width: 600px;
+    margin: auto;
+}
+
+form h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 1000;
+    font-style: oblique;
+    text-align: right;
+    margin-right: 11px;
+    width: 8em;
+}
 
 input {
     width: 47%;
     padding: 7px;
-    align-self: center;
-    /* Center inside flex column */
-    margin: 10px 0;
+    margin: 1em 8em;
     font-size: 15px;
     background-color: #4CAF50;
     color: white;
@@ -19,20 +47,32 @@ input {
     border-radius: 4px;
 
 }
-
+h1 i{
+    font-size: 24px !important;
+    color: rgb(38, 190, 195);
+    font-weight: 1000;
+}
 nav {
     display: flex;
+    /* used flexbox to make the nav responsive and align items properly */
     justify-content: flex-start;
-    padding: 16px 5%; 
+    padding: 6px 5%;
     background-color: #004c93;
     gap: 20px;
+    align-items: center;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 15px 15px;
     font-size: 20px;
     font-weight: 400;
-    font-family: Lato,Lucida Sans Unicode,Lucida Grande,sans-serif;
+    font-family: Lato, Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
