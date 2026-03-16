@@ -1,11 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
 form {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     min-height: 100vh;
@@ -13,7 +6,6 @@ form {
     background-color: #f2f2f2;
     font-size: 22px;
     border: 2px solid #ccc;
-
 }
 
 .input-group i {
