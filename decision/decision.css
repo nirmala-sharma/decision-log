@@ -1,11 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-}
 form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
     width: 244px;
     margin: 81px auto auto;
 }
@@ -51,28 +44,4 @@ h1 i{
     font-size: 24px !important;
     color: rgb(38, 190, 195);
     font-weight: 1000;
-}
-nav {
-    display: flex;
-    /* used flexbox to make the nav responsive and align items properly */
-    justify-content: flex-start;
-    padding: 6px 5%;
-    background-color: #004c93;
-    gap: 20px;
-    align-items: center;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 15px 15px;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: Lato, Lucida Sans Unicode, Lucida Grande, sans-serif;
-}
-
-nav img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
 }

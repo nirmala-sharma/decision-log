@@ -1,11 +1,4 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
 form {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     min-height: 100vh;
@@ -13,7 +6,6 @@ form {
     background-color: #f2f2f2;
     font-size: 22px;
     border: 2px solid #ccc;
-
 }
 
 .input-group i {
@@ -62,30 +54,4 @@ input[type="password"] {
 h1 i {
     color: burlywood;
     margin-right: 5px;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-start;
-    padding: 6px 5%;
-    /* used % in order to make it responsive */
-    background-color: #004c93;
-    gap: 20px;
-    align-items: center;
-    /* vertically center items in the nav */
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin: 15px 15px;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: Lato, Lucida Sans Unicode, Lucida Grande, sans-serif;
-}
-
-nav img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
 }
