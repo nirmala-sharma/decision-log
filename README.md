@@ -1,4 +1,4 @@
-# Project Name: DecisionLog
+# DecisionLog
 
 ### Project Description:
 DecisionLog is a web application that allows users to record and manage personal decisions. After registering and logging in, users can create, view, edit, and delete decision entries.
@@ -17,11 +17,6 @@ Students and individuals who want a simple tool for decision tracking and self-r
 - Edit decisions
 - Delete decisions
 
-
-***
-
----
-
 _________________
 
 
@@ -31,44 +26,12 @@ Below is the Entity Relationship Diagram for DecisionLog:
 
 ![DecisionLog ERD](images/erd.png)
 
-
-***
-
----
-
 _________________
 
 
-## Business Rules – DecisionLog
+## Business Rules
 
-**Relationship 1:** USER creates DECISION
+A USER may create many DECISIONS. A DECISION is created by exactly one USER.
 
-**Cardinality:**
-USER (1) : (M) DECISION
-
-**Syntax:**
-<entity 1> <minimum> <relationship> <maximum> <entity 2>
-
-**Rules:**
-<USER> <may> <create> <many> <DECISION>
-A user may create many decisions.
-
-<DECISION> <must> <be created by> <one> <USER>
-Each decision must be created by one user.
-
-
-**Relationship 2:** CATEGORY classifies DECISION
-
-**Cardinality:**
-CATEGORY (1) : (M) DECISION
-
-**Syntax:**
-<entity 1> <minimum> <relationship> <maximum> <entity 2>
-
-**Rules:**
-<CATEGORY> <may> <classify> <many> <DECISION>
-A category may classify many decisions.
-
-<DECISION> <must> <belong to> <one> <CATEGORY>
-Each decision must belong to one category.
+Each CATEGORY may classify many DECISIONS. Each DECISION must belong to exactly one CATEGORY.
 
