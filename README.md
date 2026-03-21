@@ -35,3 +35,5 @@ A USER may create many DECISIONS. A DECISION is created by exactly one USER.
 
 Each CATEGORY may classify many DECISIONS. Each DECISION must belong to exactly one CATEGORY.
 
+A USER may have many PHONE_NUMBERS. Each PHONE_NUMBER must belong to exactly one USER.
+
