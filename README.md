@@ -24,7 +24,7 @@ _________________
 
 Below is the Entity Relationship Diagram for DecisionLog:
 
-![DecisionLog ERD](images/erd.png)
+![DecisionLog ERD](public/images/erd.png)
 
 _________________
 
