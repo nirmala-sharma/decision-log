@@ -29,7 +29,6 @@ CREATE TABLE IF NOT EXISTS Decision (
     User_Id INT NOT NULL,
     Category_Id INT NOT NULL,
     Title VARCHAR(100) NOT NULL,
-    Description TEXT,
     CreatedDate DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
     Status VARCHAR(30) NOT NULL,
     CONSTRAINT fk_decision_user
@@ -38,5 +37,12 @@ CREATE TABLE IF NOT EXISTS Decision (
         FOREIGN KEY (Category_Id) REFERENCES Category(Category_Id)
 );
 
+ALTER TABLE User
+ADD Username VARCHAR(100) NOT NULL UNIQUE;
 
+INSERT INTO Category (Category_Name, Description)
+VALUES 
+('School', 'School related decisions'),
+('Work', 'Work related decisions'),
+('Personal', 'Personal decisions');
 

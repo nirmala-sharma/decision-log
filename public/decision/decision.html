@@ -20,11 +20,19 @@
 
     <form id="decision_form">
         <h1 class="form-title"> <i class="fa-solid fa-check"></i>Make a Decision!</h1>
+         <select id="categoryId">
+        <option value="">Select Category</option>
+        <option value="1">School</option>
+        <option value="2">Work</option>
+        <option value="3">Personal</option>
+    </select>
         <div class="container">
             <textarea placeholder="Enter your decision" id="decision_input"></textarea>
         </div>
+         <input type="text" id="status" placeholder="Enter Status (e.g., Pending, Done)">
         <input id = "decision_submit" type="submit" value="Add Decision">
     </form>
+    <div id="decisions_list"></div>
 </body>
 
 </html>
