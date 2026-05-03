@@ -40,6 +40,7 @@ CREATE TABLE IF NOT EXISTS Decision (
 ALTER TABLE User
 ADD Username VARCHAR(100) NOT NULL UNIQUE;
 
+-- I am inserting data to the Category table manually because i dont have created the input form for it and i want to have some data to work with when i create the decision input form.
 INSERT INTO Category (Category_Name, Description)
 VALUES 
 ('School', 'School related decisions'),
