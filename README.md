@@ -22,12 +22,23 @@ _________________
 
 ## ER Diagram
 
+ER Diagram is a visual diagram used in database design to show how data is organized and how different parts of the database relate to each other.
+
 Below is the Entity Relationship Diagram for DecisionLog:
 
 ![DecisionLog ERD](public/images/erd.png)
 
 _________________
 
+## Relational schema diagram / database relationship diagram
+
+- Relations diagram shows the tables in a database, their columns, and how the tables are connected using primary keys and foreign keys.
+
+- The purpose of this diagram in database design is to show the structure of the database after converting the ER diagram into tables. It helps developers understand which tables exist, what fields they contain, and how data is linked between tables.
+
+![DecisionLog Relations](public/images/relations.png)
+
+_________________
 
 ## Business Rules
 
