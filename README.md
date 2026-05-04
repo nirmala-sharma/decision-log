@@ -1,7 +1,7 @@
 # DecisionLog
 
 ### Project Description:
-DecisionLog is a web application that allows users to record and manage personal decisions. After registering and logging in, users can create, view, edit, and delete decision entries.
+DecisionLog is a web application that allows users to record and manage personal decisions. After registering and logging in, users can create and view decision entries.
 
 ### Purpose:
 The purpose of this application is to help users keep track of decisions they make and reflect on them later.
@@ -14,8 +14,6 @@ Students and individuals who want a simple tool for decision tracking and self-r
 - User login
 - Create new decision entries
 - View existing decisions
-- Edit decisions
-- Delete decisions
 
 _________________
 
