@@ -1,6 +1,8 @@
 require('dotenv').config();
 const express = require("express")
 const path = require("path")
+const open = require("open");
+
 const app = express()
 
 app.use(express.json())
@@ -17,4 +19,7 @@ app.use("/categories", categoryRoutes)
 
 const PORT = process.env.PORT || 3500
 
-app.listen(PORT, () => console.log(`Server listening on port ${PORT}!`))
+app.listen(PORT, () => {
+    console.log(`Server listening on port ${PORT}!`);
+    open(`http://localhost:${PORT}/login/login.html`);
+});
